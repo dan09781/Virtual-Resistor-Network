@@ -388,8 +388,8 @@ void setV (const string& line, NodeList *List, ResistorList *RList)
     }
 }
 
-void solve (const string& line, NodeList *List, ResistorList *RList)
-{
+void solve (const string& line, NodeList *List, ResistorList *RList) // COuld not complete this function
+{                                                                    // As a result, solve command won't work
     Node *tptr=List->getHead();
     bool setCheck=false;
     while (tptr!=NULL)
